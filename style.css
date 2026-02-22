@@ -74,7 +74,18 @@ h6 {
   width: 1px;
 }
 
-/* Footer */
+:root {
+  --navy950: hsl(233 47% 7%);
+  --blue950: hsl(244 37% 16%);
+  --purple500: hsl(277 64% 61%);
+  --white: hsl(0 0% 100%);
+  --white-75pc: hsl(0 0% 100% / 0.75);
+  --white-60pc: hsl(0 0% 100% / 0.6);
+}
+
+/* GENERAL STYLES AND LAYOUT */
+
+/* FOOTER */
 .attribution {
   font-size: 11px;
   text-align: center;
