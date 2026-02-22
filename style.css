@@ -110,7 +110,6 @@ h6 {
 body {
   display: flex;
   flex-direction: column;
-  min-height: 100svh;
   font-family: "Inter Regular", sans-serif;
   /* 15px / 16px => 0.9375rem */
   font-size: 0.9375rem;
@@ -118,6 +117,7 @@ body {
   line-height: 1.65;
   color: var(--white-75pc);
   background-color: var(--navy950);
+  min-height: 100svh;
   padding: 24px;
 }
 
@@ -127,6 +127,15 @@ main {
   align-items: center;
   justify-content: center;
   padding-bottom: 24px;
+}
+
+/* CARD COMPONENT */
+
+.card {
+  overflow: hidden;
+  background-color: var(--blue950);
+  max-width: 35rem;
+  border-radius: 8px;
 }
 
 /* FOOTER */
