@@ -108,6 +108,9 @@ h6 {
 /* GENERAL STYLES AND LAYOUT */
 
 body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100svh;
   font-family: "Inter Regular", sans-serif;
   /* 15px / 16px => 0.9375rem */
   font-size: 0.9375rem;
@@ -115,6 +118,15 @@ body {
   line-height: 1.65;
   color: var(--white-75pc);
   background-color: var(--navy950);
+  padding: 24px;
+}
+
+main {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 24px;
 }
 
 /* FOOTER */
