@@ -63,6 +63,7 @@ h6 {
 }
 
 /* UTILITIES */
+
 .sr-only {
   border: 0;
   clip-path: inset(50%);
@@ -106,7 +107,18 @@ h6 {
 
 /* GENERAL STYLES AND LAYOUT */
 
+body {
+  font-family: "Inter Regular", sans-serif;
+  /* 15px / 16px => 0.9375rem */
+  font-size: 0.9375rem;
+  font-weight: 400;
+  line-height: 1.65;
+  color: var(--white-75pc);
+  background-color: var(--navy950);
+}
+
 /* FOOTER */
+
 .attribution {
   font-size: 11px;
   text-align: center;
