@@ -83,6 +83,27 @@ h6 {
   --white-60pc: hsl(0 0% 100% / 0.6);
 }
 
+@font-face {
+  font-family: "Inter Regular";
+  font-weight: 400;
+  font-display: swap;
+  src: url(./fonts/Inter-Regular-subset.woff2) format(woff2);
+}
+
+@font-face {
+  font-family: "Inter Bold";
+  font-weight: 700;
+  font-display: swap;
+  src: url(./fonts/Inter-Bold-subset.woff2) format(woff2);
+}
+
+@font-face {
+  font-family: "Lexend Deca";
+  font-weight: 400;
+  font-display: swap;
+  src: url(./fonts/LexendDeca-Regular-subset.woff2) format(woff2);
+}
+
 /* GENERAL STYLES AND LAYOUT */
 
 /* FOOTER */
