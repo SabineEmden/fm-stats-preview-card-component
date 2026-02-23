@@ -111,8 +111,7 @@ body {
   display: flex;
   flex-direction: column;
   font-family: "Inter Regular", sans-serif;
-  /* 15px / 16px => 0.9375rem */
-  font-size: 0.9375rem;
+  font-size: 0.9375rem; /* 15px / 16px => 0.9375rem */
   font-weight: 400;
   line-height: 1.65;
   color: var(--white-75pc);
@@ -136,6 +135,35 @@ main {
   background-color: var(--blue950);
   max-width: 35rem;
   border-radius: 8px;
+}
+
+.card-heading {
+  font-family: "Inter Bold", sans-serif;
+  font-size: 1.75rem; /* 28px / 16px => 1.75rem */
+  font-weight: 700;
+  line-height: 1.25;
+  color: var(--white);
+}
+
+.card-heading strong {
+  color: var(--purple500);
+}
+
+.card-stats {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 0.75rem; /* 12px / 16px => 0.75rem */
+  line-height: 2;
+  letter-spacing: 0.0833em; /* 1px / 12px => 0.0833em */
+  text-transform: uppercase;
+  color: var(--white-60pc);
+}
+
+.card-stats strong {
+  font-family: "Inter Bold", sans-serif;
+  font-size: 1.5rem; /* 24px / 16px => 1.5rem */
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--white);
 }
 
 /* FOOTER */
