@@ -93,10 +93,8 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [Image Overlays with CSS & the ::before Pseudo Selector](https://www.traversymedia.com/blog/css-image-overlay) by Brad Traversy - This tutorial uses an overlay on top of a background image. I adapted it for an `<img>` element.
+- [Blend Modes](https://css-tricks.com/basics-css-blend-modes/) by Chris Coyier for CSS Tricks - I learned from this article I could use `mix-blend-mode` to blend the image with its purple overlay.
 
 ### AI Collaboration
 
