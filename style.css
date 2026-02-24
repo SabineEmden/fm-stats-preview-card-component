@@ -146,7 +146,8 @@ main {
 }
 
 .card-image {
-  margin: auto;
+  object-fit: cover;
+  width: 100%;
 }
 
 .information-card {
