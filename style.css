@@ -220,6 +220,23 @@ main {
   }
 }
 
+@media (min-width: 75rem) {
+  .card {
+    display: grid;
+    grid-template-areas: "information image";
+    grid-template-columns: 1fr 1fr;
+    max-width: 70.5rem;
+  }
+
+  .image-wrapper {
+    grid-area: image;
+  }
+
+  .information-card {
+    grid-area: information;
+  }
+}
+
 /* FOOTER */
 
 .attribution {
