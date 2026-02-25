@@ -1,6 +1,6 @@
 # Frontend Mentor - Stats preview card component solution
 
-This is a solution to the [Stats preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62). Frontend Mentor challenges help my improve my coding skills by building realistic projects.
+This is a solution to the [Stats preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62). Frontend Mentor challenges help me improve my coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -20,7 +20,7 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 
 ### The challenge
 
-The brief for this project was to build out the stats preview card component and get it looking as close to the design as possible, starting with the following assets:
+The brief for this challenge was to build out the stats preview card component and get it looking as close to the design as possible, starting with the following assets:
 
 - Figma design file for mobile, tablet, and desktop layouts
 - JPEG design files for mobile and desktop layouts
@@ -53,13 +53,11 @@ Users should be able to:
 
 ### What I learned
 
-I tried a number of possible solutions for the image with the purple overlay. The image is decorative, and the mobile design uses a different image file than the tablet and desktop designs.
+I tried a number of possible solutions for the image and its purple overlay. The image is decorative, and the mobile design uses a different image file than the tablet and desktop designs.
 
-I could have used a background-image directly on the `<div class="image-wrapper">` and swapped the image in the media query for the breakpoint at `36rem` screen width.
+I could have used a background-image directly on the `<div class="image-wrapper">` and swapped the image in the media query for the breakpoint at `36rem` screen width. I opted for the `<picture>` element instead. I don't see the image as a background image because there is no other content on top of it.
 
-I opted for the `<picture>` element instead. I don't see the image as a background image because there is no other content on top of it.
-
-The `<picture>` element forces the browser to update the value of the `src` attribute in the `<img>` element at the breakpoint. A `srcset` directly on the `<img>` element would have given only a suggestion to the browser.
+A `srcset` directly on the `<img>` element would have been another option. The `<picture>` element forces the browser to update the value of the `src` attribute in the `<img>` element at the breakpoint. The `srcset` on the `<img>` element would have given only a suggestion to the browser.
 
 ```html
 <div class="image-wrapper">
@@ -72,11 +70,11 @@ The `<picture>` element forces the browser to update the value of the `src` attr
 </div>
 ```
 
-For the purple tint on the black and white image, I first had a purple overlay with reduced opacity that used the `::before` pseudo selector on top of the image. Then I came across CSS blend modes. Blending the overlay with the image with `mix-blend-mode` gave the image a look that was closer to the design.
+For the purple tint on the black and white image, I first had a purple overlay with reduced opacity that used the `::before` pseudo selector on top of the image. Then I came across CSS blend modes. Blending the overlay with the image with `mix-blend-mode` gives the image a look that is closer to the design.
 
 I simplified the code by removing the `::before` pseudo selector, adding a purple background color to the `<div>` that wraps the `<picture>` element, and using `mix-blend-mode` on the `<img>` element.
 
-I tested a couple of values for `mix-blend-mode`. I chose `overlay` to get the image as close to the design as possible.
+I tested a couple of values for `mix-blend-mode`. I chose `overlay` to get the image looking as close to the design as possible.
 
 ```css
 .image-wrapper {
@@ -92,7 +90,7 @@ I tested a couple of values for `mix-blend-mode`. I chose `overlay` to get the i
 
 ### Continued development
 
-This was my first project where I used the `<picture> element. I now have a much better understanding of responsive images and can use that in future projects. I also learned a lot about different ways to add a color overlay to an image.
+This was my first project where I used the `<picture>` element. I now have a much better understanding of responsive images and can use that in future projects. I also learned a lot about different ways to add a color overlay to an image.
 
 ### Useful resources
 
