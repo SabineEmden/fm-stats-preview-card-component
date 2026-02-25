@@ -92,12 +92,12 @@ I tested a couple of values for `mix-blend-mode`. I chose `overlay` to get the i
 
 ### Continued development
 
-This was my first project where I used the `<picture> element. I now have a much better understanding of responsive images and can use that knowledge in future projects. I also learned a lot about different ways to add a color overlay to an image.
+This was my first project where I used the `<picture> element. I now have a much better understanding of responsive images and can use that in future projects. I also learned a lot about different ways to add a color overlay to an image.
 
 ### Useful resources
 
-- [Image Overlays with CSS & the ::before Pseudo Selector](https://www.traversymedia.com/blog/css-image-overlay) by Brad Traversy - This tutorial uses an overlay on top of a background image. I adapted it for an `<img>` element.
-- [Blend Modes](https://css-tricks.com/basics-css-blend-modes/) by Chris Coyier for CSS Tricks - I learned from this article I could use `mix-blend-mode` to blend the image with its purple overlay.
+- [The picture element](https://web.dev/learn/design/picture-element) on web.dev - This article helped me to better understand the `<picture>` element.
+- [Blend Modes](https://css-tricks.com/basics-css-blend-modes/) by Chris Coyier for CSS Tricks - I learned from this article I could use `mix-blend-mode` to blend the image with the purple background of its wrapper.
 
 ## Author
 
