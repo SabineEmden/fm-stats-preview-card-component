@@ -38,7 +38,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor solution](https://your-solution-url.com)
+- [Frontend Mentor solution](https://www.frontendmentor.io/solutions/stats-preview-card-component-7KpZcPqSH6)
 - [Live site](https://sabineemden.github.io/fm-stats-preview-card-component/)
 
 ## My process
